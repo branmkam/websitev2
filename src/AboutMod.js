@@ -1,8 +1,7 @@
 import './App.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import myheadshot from './images/myHeadshot.jpg';
-import resume from './files/ResumeBrandonKaminski.docx';
-
 function AboutMod() {
 
   return (
@@ -22,7 +21,7 @@ function AboutMod() {
          <p>To see my computer science projects, click on the "My Projects" tab!</p>
     <br />
       <h2>Experience</h2>
-      <h2><a href = {resume} target = "_blank">Download my resume! (.docx)</a> | <a href = "https://www.linkedin.com/in/brandon-kaminski-86580a19a/" target = "_blank">View my LinkedIn profile!</a></h2>
+      <h2><Link to = "/files/ResumeBrandonKaminski.docx" target = "_blank" download>Download my resume! (.docx)</Link> | <a href = "https://www.linkedin.com/in/brandon-kaminski-86580a19a/" target = "_blank">View my LinkedIn profile!</a></h2>
       <p></p>
    </div>
   </div>
