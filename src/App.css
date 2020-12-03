@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 24;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* my stuff */
+a.react
+{
+  color: white;
+  font-family: monospace;
+}
+
+a.react:hover
+{
+  color: #00baff;
+  font-family: monospace;
+}
+
+p.reactP
+{
+  font-family: monospace;
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align:center;
+/*  background-color: #0066ff;*/
+}
+
+li.navlist {
+  display: inline;
+/*  background-color: #0066ff;*/
+  float: left;
+  color: #FF0000;
+  font-family: "Arial";
+  width: 25%;
+  text-align: center;
+}
+
+li.inl {
+  display: inline-block;
+  /* float: center; */
+  padding: 15px;
+}
+
+img.pl {
+  height: 120px;
+  margin-top: 20px;
+  float:center;
+}
+
+#mainhome
+{
+  background-image: url("worldmaptest.jpg");
+    min-height: 100%;
+    min-width: 1024px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 20px;
+    left: 0px;
+}
+
+div.main {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  margin-top: 170px;
+}
+
+#githubref
+{
+  font-family: garamond;
+  font-weight: bold;
+  font-size:24px;
+  text-align: center;
+  margin: auto;
+  }
+
+body
+{
+  background-color: #0077ff22;
+  margin: 0px;
+}
+
+
+#welcome
+{
+  font-size: 48px;
+  font-family: "tw cen mt";
+}
+#findme
+{
+  text-align: center;
+  margin: auto;
+}
+
+#headshot
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nlink
+{
+display: block;
+padding: 8px;
+background-color: #99badd;
+font-family: Arial;
+font-size:24px;
+text-decoration: none;
+color: #000000;
+}
+
+.nlink:hover {
+  background-color: #0044ff;
+  color: #99badd;
+}
+
+a.nav {
+display: block;
+padding: 8px;
+background-color: #99badd;
+font-family: Arial;
+font-size:24px;
+text-decoration: none;
+color: #000000;
+}
+
+a.nav:hover {
+  background-color: #0044ff;
+  color: #99badd;
+}
+
+a {
+  font-family: "Garamond";
+  text-decoration: none;
+  color: #0012ee;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  font-family: "Garamond";
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p.p50
+{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.viewcode
+{
+  padding-bottom: 50px;
+}
+
+p.proj
+{
+  padding-top: 25px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1, h4 {
+  font-family: "Franklin Gothic Medium";
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+
+#myname {
+  font-size: 60px;
+  padding-top: 20px;
+  margin: 5px;
+  padding-bottom: 0px;
+  color: #99badd;
+  -webkit-text-stroke: 0.5px white;
+}
+
+#subtext {
+  font-size: 24px;
+  color: red;
+  margin: 0px;
+  padding: 10px;
+  font-family: "Trebuchet MS";
+  -webkit-text-stroke: 0.2px white;
+}
+
+#start
+{
+  font-size: 36px;
+  -webkit-text-stroke: 0.3px #99badd;
+  font-style: bold;
+}
+
+div.header {
+  overflow: hidden;
+  top: 0px;
+  background-image: url("testheaderbg.jpg");
+  position: fixed;
+  width: 100%;
+}
+
+div.footer
+{
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: #99badd;
+  margin-top: 0;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+
+#headshot
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+}
