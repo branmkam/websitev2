@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { DownloadLink } from 'react-download-link';
 import myheadshot from './images/myHeadshot.jpg';
 function AboutMod() {
 
