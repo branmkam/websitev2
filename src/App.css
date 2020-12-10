@@ -204,6 +204,11 @@ p.p50
   margin-right: auto;
 }
 
+h3
+{
+  font-family: "Garamond";
+}
+
 p.viewcode
 {
   padding-bottom: 50px;
@@ -235,7 +240,7 @@ h2 {
   margin: 5px;
   padding-bottom: 0px;
   color: #99badd;
-  -webkit-text-stroke: 0.5px white;
+  -webkit-text-stroke: 0.5px white; 
 }
 
 #subtext {

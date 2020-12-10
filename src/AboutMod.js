@@ -21,7 +21,7 @@ function AboutMod() {
          <p>To see my computer science projects, click on the "My Projects" tab!</p>
     <br />
       <h2>Experience</h2>
-      <h2><Link to="/files/ResumeBrandonKaminski.pdf" target="_blank" download>Download my resume! (.pdf)</Link> | <a href = "https://www.linkedin.com/in/brandon-kaminski-86580a19a/" target = "_blank">View my LinkedIn profile!</a></h2>
+      <h3>Download my resume! <Link to="/files/ResumeBrandonKaminski.pdf" target="_blank" download>(.pdf)</Link> or <Link to="/files/ResumeBrandonKaminski.docx" target="_blank" download> (.docx)</Link> | <a href = "https://www.linkedin.com/in/brandon-kaminski-86580a19a/" target = "_blank">View my LinkedIn profile!</a></h3>
       <p></p>
    </div>
   </div>
