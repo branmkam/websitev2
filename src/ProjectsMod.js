@@ -44,8 +44,8 @@ function ProjectsMod() {
 
   <h2>Other Skills:</h2>
     <p> Databases: Some experience with MongoDB (including its Node.js framework) and Postman<br/>
-   Some experience with <b>Python</b> libraries including Pandas, re, and NumPy</p>
-   Currently learning various <b>JavaScript</b> frameworks including Node/Express, React, and React Native<br/>
+   Some experience with <b>Python</b> libraries including Pandas, re, and NumPy<br/>
+   Currently learning various <b>JavaScript</b> frameworks including Node/Express, React, and React Native</p>
   <br/>
 
 <ul>
