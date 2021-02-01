@@ -10,6 +10,9 @@ function AboutMod() {
     <div class = "main">
       <img id = "headshot" src = {myheadshot} height = "200"></img>
       <br/>
+      <h2>Experience</h2>
+      <h3>Download my resume! <Link to="/files/ResumeBrandonKaminski.pdf" target="_blank" download>(.pdf)</Link> or <Link to="/files/ResumeBrandonKaminski.docx" target="_blank" download> (.docx)</Link> | <a href = "https://www.linkedin.com/in/brandon-kaminski-86580a19a/" target = "_blank">View my LinkedIn profile!</a></h3>
+      <br/>
       <h2>About Me: Who Am I?</h2>
       <p>I am currently a sophomore at the University of North Carolina - Chapel Hill,
          double majoring in Computer Science, BS, and Linguistics, BA.</p>
@@ -20,8 +23,6 @@ function AboutMod() {
       other languages from friends who speak them or by using Duolingo.</p>
          <p>To see my computer science projects, click on the "My Projects" tab!</p>
     <br />
-      <h2>Experience</h2>
-      <h3>Download my resume! <Link to="/files/ResumeBrandonKaminski.pdf" target="_blank" download>(.pdf)</Link> or <Link to="/files/ResumeBrandonKaminski.docx" target="_blank" download> (.docx)</Link> | <a href = "https://www.linkedin.com/in/brandon-kaminski-86580a19a/" target = "_blank">View my LinkedIn profile!</a></h3>
       <p></p>
    </div>
   </div>
