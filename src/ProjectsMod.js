@@ -37,15 +37,17 @@ function ProjectsMod() {
     </ul>
 
     <h2>Programming languages:</h2>
-    <p> Fluent: Java, HTML, CSS <br/>
-    Adept: Python, C, Ruby, JavaScript<br/>
+    <p> Fluent: Java, Python, HTML, CSS<br/>
+    Near-Fluent: JavaScript<br/>
+    Adept: C, Ruby<br/>
   </p>
   <br/>
 
   <h2>Other Skills:</h2>
     <p> Databases: Some experience with MongoDB (including its Node.js framework) and Postman<br/>
-   Some experience with <b>Python</b> libraries including Pandas, re, and NumPy<br/>
-   Currently learning various <b>JavaScript</b> frameworks including Node/Express, React, and React Native</p>
+   Some experience with <b>Python</b> libraries including Pandas, re, NumPy, and SpaCy<br/>
+   Currently learning various <b>JavaScript</b> frameworks including Node/Express, React, and React Native<br/>
+   Currently taking SQL course on Codecademy provide additional knowledge of database querying</p>
   <br/>
 
 <ul>
