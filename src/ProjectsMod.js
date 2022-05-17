@@ -19,17 +19,12 @@ function ProjectsMod() {
   var startDate = new Date(2019, 8, 17);
   var y = Math.floor((new Date() - startDate) / (1000*60*60*24));
 
-  const languages = [java, htmlcss, python, c, ruby, js, github, react];
+  const languages = [java, htmlcss, python, js, github, react];
   const langs = languages.map((lang) => <li class = "inl"><img class = "pl" src={lang}></img></li>);
 
   return (
 <div>
     <title>Brandon Kaminski - Projects</title>
-    <div class = "header">
-    <h1 id = "myname">Brandon Kaminski</h1>
-    <h4 id = "subtext">Computer Scientist, Linguist, and Musician.</h4>
-    </div>
-
     <div class = "main">
 
     <ul>
@@ -37,17 +32,17 @@ function ProjectsMod() {
     </ul>
 
     <h2>Programming languages:</h2>
-    <p> Fluent: Java, Python, HTML, CSS<br/>
+    <p> Fluent: Python, HTML, CSS, Java<br/>
     Near-Fluent: JavaScript<br/>
-    Adept: C, Ruby<br/>
   </p>
   <br/>
 
   <h2>Other Skills:</h2>
-    <p> Databases: Some experience with MongoDB (including its Node.js framework) and Postman<br/>
-   Some experience with <b>Python</b> libraries including Pandas, re, NumPy, and SpaCy<br/>
-   Currently learning various <b>JavaScript</b> frameworks including Node/Express, React, and React Native<br/>
-   Currently taking SQL course on Codecademy provide additional knowledge of database querying</p>
+    <p> Databases: Some experience with <b>MongoDB</b> (including its Node.js framework) and Postman<br/>
+   Ample experience with <b>Python</b> data libraries including <b>Pandas, re, NumPy, and SpaCy</b><br/>
+   Some experience with creating and running neural networks using <b>PyTorch</b><br/>
+   Some experience with various <b>JavaScript</b> frameworks including <b>Node/Express, React, and React Native</b><br/>
+   Currently taking <b>SQL</b> course on Codecademy to provide additional knowledge of database querying</p>
   <br/>
 
 <ul>
@@ -56,6 +51,24 @@ function ProjectsMod() {
 <img height = "100" src = {github}></img></a></li>
 </ul>
     <p class = "proj">Projects Besides This Website:</p>
+
+    <p class = "p50"><b>Americle - </b> This game was built in May 2022 to join in the Wordle craze. Like its inspirations <a target="blank" href="https://globle-game.com">Globle </a>  
+    and <a target="blank" href="https://semantle.com">Semantle</a>, it is based on distance. 
+    The user has to identify a target US city by guessing other US cities, utilizing their distances away from the target city 
+    to correctly identify the target with the least number of guesses. <b>Built using the Leaflet map framework in JavaScript supplemented by vanilla HTML, CSS, and JavaScript.</b>
+    </p>
+    <p class = "viewcode">
+    <a href = "https://github.com/branmkam/americle" target = "_blank">
+      View Code Here </a> | <a href = "https://branmkam.github.io/americle" target = "_blank">View Website Here </a>
+        <img height = "24" src = {htmlcss}></img><img height = "24" src = {js}></img></p>
+
+    <p class = "p50"><b>TuneSpot - </b> This game was built as a final project for a web development class in April-May 2021, but is available for anyone to play! 
+    This app combines name-that-tune with the vast playlist libraries of Spotify. Pick any playlist, play with friends, and beat high scores as you test your music knowledge! 
+    <b> Built with React and Spotify API.</b>
+    </p>
+    <p class = "viewcode">
+      <a href = "https://branmkam.github.io/tunespot" target = "_blank">View Website Here </a>
+        <img height = "24" src = {htmlcss}></img><img height = "24" src = {js}></img><img height = "24" src = {react}></img></p>
 
     <p class = "p50"><b>Comparing Economic Indicators and COVID-19 Numbers - </b> My project at the Carolina Data Challenge 2020, 
       created in a team of four. We <b>won</b> in our chosen category, Social Science! <br /> <br />
